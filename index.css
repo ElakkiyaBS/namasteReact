@@ -1,0 +1,70 @@
+body {
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    padding: 10px;
+    color: #fff;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav li{
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(231, 229, 229);
+    padding: 10px;
+}
+
+h3 {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+p {
+    color: #686b78;
+    font-size: 13px;
+    margin-top: 4px;
+}
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 32px;
+}
+
+.restaurant-card {
+    margin: 15px;
+    border: 1px rgb(248, 247, 247) solid;
+    width: 20%;
+    padding: 15px;
+}
+
+.restaurant-card:hover{
+    border-color: #d3d5df;
+    box-shadow: 0 4px 7px 0 rgb(218 220 230 / 60%);
+}
+
+.restaurant-card img {
+    width: 100%;
+    height: fit-content;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.search input, .search button {
+    padding: 12px;
+    margin: 6px;
+}
